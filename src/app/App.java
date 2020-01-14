@@ -9,7 +9,7 @@ public class App {
         Console con = System.console();
 
         System.out.print("Inputkan nama: ");
-        nama = "nagi"
+        nama = "nagi";
         System.out.print("Inputkan usia: ");
         usia = 20;
 	    System.out.print("Inputkan tempat tinggal: ");
