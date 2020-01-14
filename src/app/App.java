@@ -9,9 +9,9 @@ public class App {
         Console con = System.console();
 
         System.out.print("Inputkan nama: ");
-        nama = "nagi";
+        nama = con.readLine();
         System.out.print("Inputkan usia: ");
-        usia = 20;
+        usia = Integer.parseInt(con.readLine());
         
         System.out.println("Nama kamu adalah: " + nama);
         System.out.println("Saat ini berusia " + usia + " tahun");
